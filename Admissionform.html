@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+    <h2>Personal Details</h2>
+    <form onsubmit="handlesubmit()">
+        <!-- Full Name -->
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Gender -->
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!--Nationality-->
+        <label for="Nationality">Nationality</label><br>
+        <select id="Nationality" name="Nationality" required>
+            <option value=" ">Select</option>
+            <option value="Indian">Indian</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <!--Religion-->
+        <label for="Religion">Religion</label><br>
+        <select id="Religion" name="Religion" required>
+            <option value=" ">Select</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <!--Caste/Category-->
+        <label for="Category">Caste/Category</label><br>
+        <select id="Category" name="Category" required>
+            <option value=" ">Select</option>
+            <option value="General">General</option>
+            <option value="OBC">OBC</option>
+            <option value="SC/ST">SC/ST</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <!--Blood Group-->
+        <label for="Blood Group">Blood Group</label><br>
+        <input type="Blood Group" id="Blood Group" name="Blood Group" required><br><br>
+
+        <!--Aadhar Number-->
+        <label for="Aadhar Number">Aadhar Number</label><br>
+        <input type="number" id="Aadhar Number" name="Aadhar Number" required><br><br>
+
+    <h2>Contact Details</h2>
+
+        <!-- Permanent Address -->
+        <label for="address"> Permanent Address</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <!-- Correspondence Address -->
+        <label for="address">Correspondence Address</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <!--Contact Number-->
+        <label for="phoneno">Student Contact Number</label><br>
+        <input type="number" id="phoneno" name="phoneno" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+    <h2>Parent/Guardian Information</h2>
+
+        <!-- Father's Name -->
+        <label for="fatherName">Father's Name</label><br>
+        <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+        <!--Father Contact Number-->
+        <label for="phoneno">Father Contact Number</label><br>
+        <input type="number" id="phoneno" name="phoneno" required><br><br>
+
+        <!--Educational Qualification-->
+        <label for="EducationalQualification">Educational Qualification</label><br>
+        <input type="text" id="EducationalQualification" name="EducationalQualification" required><br><br>
+
+        <!--Father Occupation-->
+        <label for="fatheroccupation">Father's Occupation</label><br>
+        <input type="text" id="fatheroccupation" name="fatheroccupation" required><br><br>
+
+        <!-- father's Email -->
+        <label for="email">Father's Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Mother's Name -->
+        <label for="motherName">Mother's Name</label><br>
+        <input type="text" id="motherName" name="motherName" required><br><br>
+
+        <!-- Mother Contact Number-->
+        <label for="phoneno">Mother Contact Number</label><br>
+        <input type="number" id="phoneno" name="phoneno" required><br><br>
+
+        <!--Education Qualification-->
+        <label for="Motherqualification">Mother's Qualification</label><br>
+        <input type="text" id="Motherqualification" name="Motherqualification" required><br><br>
+
+        <!--Mother Occupation-->
+        <label for="Motheroccupation">Mother's Occupation</label><br>
+        <input type="text" id="Motheroccupation" name="Motheroccupation" required><br><br>
+
+        <!-- Mother's Email -->
+        <label for="email">Mother's Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <h2> Academic Details</h2>
+
+        <!--Previous School/College Name-->
+        <label for="Previous School/College Name">Previous School/College Name</label><br>
+        <input type="text" id="Previous School/College Name" name="Previous School/College Name" required><br><br>
+
+        <!--Board/University-->
+        <label for="Board/University">Board/University</label><br>
+        <input type="text" id="Board/University" name="Board/University"><br><br>
+
+        <!--Year of Passing-->
+        <label for="Year of Passing">Year of Passing</label><br>
+        <input type="number" id="Year of Passing" name="Year of Passing"><br><br>
+
+        <!--Marks in last class-->
+        <label for="Marks in last class">Marks Obtained in Last Exam</label><br>
+        <input type="number" id="Marks" name="Marks" required><br><br>
+    
+    <h2>Course Applied For</h2>
+        
+        <!--Course Name-->
+        <label for="Course Name">Course Name</label><br>
+        <input type="text" id="Course Name" name="Course Name"><br><br>
+
+        <!--Specialization-->
+        <label for="Specialization">Specialization</label><br>
+        <input type="text" id="Specialization" name="Specialization"><br><br>
+
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+<script>
+    function handlesubmit(){
+        alert("Thankyou your submission is recorded");
+    }
+</script>
+</html>
